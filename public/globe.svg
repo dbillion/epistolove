@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Heart Shape -->
+  <path fill="#FF69B4" d="M50,0 L100,50 L50,100 L0,50 Z" />
+  
+  <!-- Arrow -->
+  <line x1="50" y1="50" x2="80" y2="80" stroke="#FFC0CB" stroke-width="5" />
+  <line x1="50" y1="50" x2="20" y2="80" stroke="#FFC0CB" stroke-width="5" />
+  
+  <!-- Text -->
+  <text x="50" y="120" font-size="24" font-family="Arial" text-anchor="middle" fill="#FF69B4">LOVE</text>
+</svg>
