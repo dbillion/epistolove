@@ -11,6 +11,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
+} 
+
+
 export const metadata = {
   title: "Epistolove - Create Heartfelt Messages Instantly",
   description: "Craft personalized and romantic love letters with our AI Love Letter Generator. Perfect for expressing your feelings to your partner, crush, or loved ones. Try it now for free!",
